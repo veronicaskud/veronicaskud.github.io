@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+	<style type="text/css">
+        .mmc-answer { display: none; }
+    </style>
+  </head>
+  <body>
+
+	<div class="container">
+	
+      <form class="form-question mmcQ">
+      
+      <p class="lead mmc">Select the statement that is NOT an example of geography's impact on international business:</p>
+        
+        <div class="radio geographyQuestion">
+          <label>
+            <input type="radio" name="group1" id="optionsRadios1" value="option1">
+            Economic sanctions against Iran by the United States and Israel are meant to hurt the economy, especially the petroleum industry. 
+          </label>
+          
+          	<div class="alert alert-success mmc-answer" id="option1">
+  				<strong>Success:</strong> Yes, this statement is more political than geographical. For additional information <a href="#" class="alert-link">review Scene 3</a>. 
+			</div>
+            
+        </div>
+        <div class="radio geographyQuestion">
+          <label>
+            <input type="radio" name="group1" id="optionsRadios2" value="option2">
+            South Korea's mountainous terrain is not conducive to agriculture; therefore South Korea is a large export country for United States farm products. 
+          </label>
+          
+          	<div class="alert alert-danger mmc-answer" id="option2">
+  				<strong>Not Quite:</strong> A country that cannot grow enough food will typically import food from other countries. Please <a href="#" class="alert-link">review Scene 3</a> before leaving this episode.
+			</div>
+          
+        </div>
+        <div class="radio geographyQuestion">
+          <label>
+            <input type="radio" name="group1" id="optionsRadios3" value="option3">
+            Access to fossil fuels allowed Britain to drive machines which helped to spur on their Industrial Revolution. 
+          </label>
+          
+          <div class="alert alert-danger mmc-answer" id="option3">
+  				<strong>Not Quite:</strong> Easy access to minerals and fossil fuels affects what a country can produce for trade with other countries. Please <a href="#" class="alert-link">review Scene 3</a> before leaving this episode.
+			</div>
+          
+        </div>
+        <div class="radio geographyQuestion" style="border-bottom:0px;">
+          <label>
+            <input type="radio" name="group1" id="optionsRadios4" value="option4">
+            Ethiopia became landlocked in 1992 when the Red Sea coast was lost to the new state of Eritrea. This brought with it new challenges for importing and exporting goods. 
+          </label>
+          
+          <div class="alert alert-danger mmc-answer" id="option4">
+  				<strong>Not Quite:</strong> Seaports make it less expensive to ship goods to and from other countries. Please <a href="#" class="alert-link">review Scene 3</a> before leaving this episode.
+			</div>
+          
+        </div>
+        
+        
+        
+        <button class="btn btn-lg btn btn-info btn-block" type="submit">Finish Episode</button>
+      </form>
+	  
+
+      
+    </div> 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+			$(document).ready(function(){ 
+			$("input[name=group1]").change(function() {
+				var test = $(this).val();
+				$(".mmc-answer").hide();
+				$("#"+test).show();
+			}); 
+		});
+      </script>
+    
+  </body>
+</html>

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* CUSTOM */
+
+
+html, body {
+  	min-height:97%;
+}
+
+body {
+  	background-color:#ceccbf;
+	background-color:#898c82;
+	margin:7px 7px 65px 7px;
+	color:#4b4d47;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'open sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h1 {
+	font-size:160%;	
+	text-align:center;
+	margin-bottom:20px;
+}
+
+p {
+	margin-top:30px;
+	margin-bottom:30px;	
+}
+
+#main {
+	background-color:#eff1da;
+	background-color:#f6f6f0;
+	min-height:100%;
+	height: auto;
+	padding: 20px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-box-shadow: 0px 0px 3px 3px rgba(102,102,102,0.5);
+	-moz-box-shadow: 0px 0px 3px 3px rgba(102,102,102,0.5);
+	box-shadow: 0px 0px 3px 3px rgba(102,102,102,0.5);
+	width:100%;
+}
+
+.mynav {
+	position:fixed;
+	top:30px;	
+	right:5px;
+	text-align:center;
+	min-width:100%;
+}
+
+.myfoot {
+	position:relative;
+	top:10px;
+	text-align:center;
+	min-width:100%;
+}
+
+.myfoot ul {
+	list-style:none;	
+	padding:0;
+	margin:0;
+}
+
+.myfoot ul li {
+	float:left;
+	padding: 0 4px 0 4px;
+	
+}
+
+.content {
+	margin-top:110px;
+	text-align:center;
+	width:85%;
+}
+
+p.bigger {
+	font-size: 1.3em;
+	line-height: 1.6em;
+	
+}
+
+p.personal {
+	margin-top:50px;	
+}
+
+.italic {
+	font-style: italic;	
+}

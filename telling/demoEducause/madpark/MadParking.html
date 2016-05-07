@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mad Parking</title>
+   <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/madpark.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+    <div class="madpark"><h1><a href="" class="navbar-brand madparktext">Mad Parking</a></h1></div>
+</nav>
+
+<div class="row">
+  <div class="col-md-12">
+    Map Goes Here
+  </div>
+	
+</div> 
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+		 $( document ).ready(function() {
+  		// Handler for .ready() called.;
+		 $('.lowviews').popover();
+		 $('.medviews').popover();
+		 $('.highviews').popover();
+		 });
+	</script>
+    
+  </body>
+</html>
