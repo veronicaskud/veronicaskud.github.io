@@ -15,8 +15,24 @@ li {margin:20px 16px 20px 8px;}
 .article-q {border-left:4px solid #7DAAED;}
 .article-q q {font-size:18px;font-style:italic;color:#353A42;}
 
-.colors {width:400px;height: 200px;color:#000000;font-size:16px;font-weight:bold;padding:40px;}
-.color1 {background-color:#1aa495}
+.colorbox {clear:left;margin:10px;}
+
+.colors {width:300px;float:left;height: 55px;color:#fff;font-size:16px;font-weight:bold;padding:20px}
+
+.color1 {background-color:#39C6A4}
+.color2 {background-color:#41B6CF}
+.color3 {background-color:#E6B63A}
+.color4 {background-color:#E27A2F}
+.color5 {background-color:#8B59D3}
+.color6 {background-color:#DD523F}
+.color7 {background-color:#7DAAED}
+.color1A {background-color:#30A68B}
+.color2A {background-color:#2E9EB8}
+.color3A {background-color:#B98B18}
+.color4A {background-color:#E2782C}
+.color5A {background-color:#8B59D3}
+.color6A {background-color:#DD523F}
+.color7A {background-color:#5D95E9}
 
 
 
