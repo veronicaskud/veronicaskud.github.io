@@ -17,7 +17,9 @@ li {margin:20px 16px 20px 8px;}
 
 .colorbox {clear:left;margin:10px;}
 
-.colors {width:300px;float:left;height: 55px;color:#fff;font-size:16px;font-weight:bold;padding:20px}
+.colors {width:200px;float:left;height: 55px;color:#fff;font-size:16px;font-weight:bold;padding:20px;}
+.darktext {color:#353A42}
+.blacktext {color:#000000}
 
 .color1 {background-color:#39C6A4}
 .color2 {background-color:#41B6CF}
@@ -33,6 +35,16 @@ li {margin:20px 16px 20px 8px;}
 .color5A {background-color:#8B59D3}
 .color6A {background-color:#DD523F}
 .color7A {background-color:#5D95E9}
+.color1B {background-color:#70D8BF}
+.color2B {background-color:#60C9E0}
+.color3B {background-color:#F2C758}
+.color4B {background-color:#F1A065}
+
+.color1P {background-color:#1aa495}
+.color2P {background-color:#3caac6}
+.color3P {background-color:#f2c41a }
+.color4P {background-color:#f26343 }
+
 
 
 
